@@ -15,6 +15,22 @@ a {
   color: #333;
   text-decoration: none;
 }
-body {
-  background-color: pink;
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.4rem;
+  height: 1.17333333rem;
+  line-height: 1.17333333rem;
+  /* 居中 */
+  font-size: 16px;
+}
+header .icon-icon-test15 {
+  font-size: 0.58666667rem;
+}
+header h3 {
+  font-size: 0.45333333rem;
+}
+header .note {
+  font-size: 0.4rem;
+  color: #2cb5a5;
 }

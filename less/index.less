@@ -2,6 +2,29 @@
 
 @import './base.less';
 
-body{
-  background-color: pink;
+// 定义变量
+@rootSize:37.5rem;
+
+// 头部
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 (15 / @rootSize);
+  height: (44 / @rootSize);
+  // background-color: pink;
+  line-height: (44 / @rootSize);  /* 居中 */
+  font-size: 16px;
+
+  .icon-icon-test15{
+    font-size: (22 / @rootSize);
+  }
+
+  h3{
+    font-size: (17 / @rootSize);
+  }
+
+  .note{
+    font-size: (15 / @rootSize);
+    color: #2cb5a5;
+  }
 }
