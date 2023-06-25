@@ -34,3 +34,59 @@ header .note {
   font-size: 0.4rem;
   color: #2cb5a5;
 }
+.banner {
+  margin-top: 0.8rem;
+  margin-bottom: 0.90666667rem;
+  text-align: center;
+}
+.banner img {
+  margin-bottom: 0.48rem;
+  width: 8rem;
+  height: 5.49333333rem;
+}
+.banner p {
+  font-size: 0.42666667rem;
+}
+.banner p span {
+  color: #16c2a3;
+}
+.type {
+  padding: 0.4rem;
+}
+.type li {
+  margin-bottom: 0.4rem;
+  padding: 0 0.4rem;
+  height: 2.08rem;
+  border: 1px solid #ededed;
+  border-radius: 0.10666667rem;
+}
+.type li a {
+  display: flex;
+  align-items: center;
+  height: 2.08rem;
+  /* 内容 在 78 里面 垂直居中 */
+}
+.type li a .pic {
+  margin-right: 0.37333333rem;
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+}
+.type li a .pic img {
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+}
+.type li a .txt {
+  flex: 1;
+}
+.type li a .txt h4 {
+  font-size: 0.42666667rem;
+  color: #3c3e3c;
+  line-height: 0.64rem;
+}
+.type li a .txt p {
+  font-size: 0.34666667rem;
+  color: #848484;
+}
+.type li a .txt .icon-arrow-right {
+  font-size: 0.42666667rem;
+}
